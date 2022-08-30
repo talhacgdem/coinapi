@@ -4,8 +4,16 @@
         <servlet-name>CoinApi2</servlet-name>
         <servlet-class>com.talhacgdem.coinapi.CoinApi</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NewsApi</servlet-name>
+        <servlet-class>com.talhacgdem.coinapi.NewsApi</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CoinApi2</servlet-name>
         <url-pattern>/coinapi2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewsApi</servlet-name>
+        <url-pattern>/newsapi</url-pattern>
     </servlet-mapping>
 </web-app>
